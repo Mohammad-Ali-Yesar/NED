@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-image: url("Pictures/Grey.png"); */
+}
+#Main_Container {
+  width: 80%;
+  background-color: #ccc;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  width: 80%;
+}
+
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-bar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* All of above is navigator */
+.nav-bar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+}
+.Search_Box {
+  width: 10%;
+}
+/* All of above is search button */
+.Web_Logo {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+/* all of above is logo */
+.About_Text {
+  font-family: "Arial";
+  text-align: center;a
+  font-size: 18px;
+  margin: 0;
+}
+/* all of adobe is About_Text */
+.textbox {
+  background-color: orange;
+  height: 450px;
+  width: 65%;
+  margin-top: 100px;
+  font-family: "Times New Roman";
+}
+/* all of above is textbox */
+#Master_Footer {
+  height: 300px;
+  width: 80%;
+  background-color: #ededed;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+#Master_Footer a {
+  text-decoration: none;
+  color: inherit;
+}
+#Master_Footer a.Col_title {
+  font-size: 28px;
+}
+#Footer_Left, #Footer_Right {
+  display: flex;
+  height: 300px;
+}
+.Footer_Col {
+  height: 250px;
+  width: 200px;
+}
+.Footer_Col li {
+  list-style-type: none;
+}
+a.Col_title {
+  color: #333;
+}
+.Col_List {
+  width: 170px;
+  text-align: left;
+}
+.Link_List {
+  padding: 20px;
+}
+.Link_List_Paragraph {
+  align: left;
+}
